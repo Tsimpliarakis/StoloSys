@@ -11,5 +11,14 @@ export default defineNuxtConfig({
   plugins: [
     tailwindcss(),
     ],
+  },
+
+  app: {
+    head: {
+      title: 'StoloSys',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
+      ],
+    }
   }
 })

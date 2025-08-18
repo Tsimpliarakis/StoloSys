@@ -4,3 +4,7 @@
 .dark {
   --ui-bg: #1f1f1f;
 }
+
+.light {
+   --ui-bg: #f1f1f1;
+}
