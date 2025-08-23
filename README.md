@@ -20,6 +20,16 @@ yarn install
 bun install
 ```
 
+## Connecting to the database
+
+Make sure to add your .env file with Supabase credentials:
+
+```bash
+# .env
+SUPABASE_URL="https://example.supabase.co"
+SUPABASE_KEY="<your_key>"
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
